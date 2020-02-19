@@ -1,7 +1,7 @@
 import React from 'react'
 import { Switch, Route} from 'react-router-dom'
 import App from './App'
-import Cart from './container/cartconatiner'
+import Cart from './container/cartcontainer'
 import { render } from '@testing-library/react'
 
 export default class Routes extends React.Component

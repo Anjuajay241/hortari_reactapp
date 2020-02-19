@@ -73,7 +73,7 @@ viewCart()
     return (
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between">
-          <a className="navbar-brand" href="#">Navbar</a>
+          <a className="navbar-brand" href="#">Amazon</a>
           <Link to="/cart">
           <button  className="right" type="button" onClick={()=>{this.viewCart();}}>
             Cart({this.state.cart.length})

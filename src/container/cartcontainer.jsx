@@ -6,7 +6,7 @@ export default class Cart extends React.Component {
     {
         return(
         <div>
-            this is my cart
+           My Cart!!
         </div>
         )
     }
